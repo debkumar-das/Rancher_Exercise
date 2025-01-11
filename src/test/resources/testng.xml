@@ -3,6 +3,7 @@
     <test name="Rancher">
         <classes>
             <class name="RancherLoginTest"/>
+            <class name="UI_Automatio_Rancher"/>
         </classes>
     </test>
 </suite>
