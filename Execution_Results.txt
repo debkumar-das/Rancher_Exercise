@@ -1,0 +1,66 @@
+"C:\Program Files\Java\jdk-23\bin\java.exe" -ea -Didea.test.cyclic.buffer.size=1048576 "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.2\lib\idea_rt.jar=51307:C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.2\bin" -javaagent:C:\Users\debdas\AppData\Local\JetBrains\IntelliJIdea2024.3\captureAgent\debugger-agent.jar -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false -Ddebugger.agent.enable.coroutines=true -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.2\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.2\plugins\testng\lib\testng-rt.jar;C:\Users\debdas\Downloads\MF-Git\TestingTemp\Rancher_Excercise\target\test-classes;C:\Users\debdas\Downloads\MF-Git\TestingTemp\Rancher_Excercise\target\classes;C:\Users\debdas\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\debdas\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\debdas\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\debdas\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\debdas\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\debdas\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\debdas\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\debdas\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\debdas\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\debdas\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\debdas\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\debdas\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\debdas\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\debdas\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\debdas\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\debdas\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\debdas\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\debdas\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\debdas\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\debdas\.m2\repository\org\testng\testng\7.5.1\testng-7.5.1.jar;C:\Users\debdas\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\debdas\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\debdas\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\debdas\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\debdas\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\debdas\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\debdas\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\debdas\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\debdas\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\debdas\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\debdas\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\debdas\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\debdas\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\debdas\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\debdas\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\debdas\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\debdas\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\debdas\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar" com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket51306 @w@C:\Users\debdas\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\debdas\AppData\Local\Temp\idea_testng.tmp
+HTTP/1.1 401 Unauthorized
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Type: application/json
+Expires: Wed 24 Feb 1982 18:42:00 GMT
+X-Api-Cattle-Auth: false
+X-Api-Schemas: https://10.52.90.0/v3-public/schemas
+X-Content-Type-Options: nosniff
+Date: Sat, 11 Jan 2025 12:43:07 GMT
+Content-Length: 105
+
+{
+    "baseType": "error",
+    "code": "Unauthorized",
+    "message": "authentication failed",
+    "status": 401,
+    "type": "error"
+}
+HTTP/1.1 201 Created
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Type: application/json
+Expires: Wed 24 Feb 1982 18:42:00 GMT
+X-Api-Cattle-Auth: false
+X-Api-Schemas: https://10.52.90.0/v3-public/schemas
+X-Content-Type-Options: nosniff
+Date: Sat, 11 Jan 2025 12:43:08 GMT
+Content-Length: 834
+
+{
+    "authProvider": "local",
+    "baseType": "token",
+    "clusterId": null,
+    "created": "2025-01-11T12:43:08Z",
+    "createdTS": 1736599388000,
+    "creatorId": null,
+    "current": false,
+    "description": "",
+    "enabled": true,
+    "expired": false,
+    "expiresAt": "",
+    "id": "token-8nqt9",
+    "isDerived": false,
+    "labels": {
+        "authn.management.cattle.io/kind": "session",
+        "authn.management.cattle.io/token-userId": "user-zg9j6",
+        "cattle.io/creator": "norman"
+    },
+    "links": {
+        "self": "https://10.52.90.0/v3-public/tokens/token-8nqt9"
+    },
+    "name": "token-8nqt9",
+    "token": "token-8nqt9:5gz6lmpnk9lxf89dq9jqwwn6vb8tkdf92rld7l5svtmwgdpzbjvrbh",
+    "ttl": 57600000,
+    "type": "token",
+    "userId": "user-zg9j6",
+    "userPrincipal": "map[displayName:Default Admin loginName:admin me:true metadata:map[creationTimestamp:<nil> name:local://user-zg9j6] principalType:user provider:local]",
+    "uuid": "da2d7acc-8a29-4621-b6bf-e9ed1c825b7c"
+}
+
+===============================================
+Suite1
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+
+Process finished with exit code 0
